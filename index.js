@@ -23,7 +23,7 @@ var y = d * 365.25;
  * @api public
  */
 
-export default function(val, options) {
+module.exports.default = function(val, options) {
   options = options || {};
   var type = typeof val;
   if (type === 'string' && val.length > 0) {
